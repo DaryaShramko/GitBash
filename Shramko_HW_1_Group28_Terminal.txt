@@ -13,7 +13,7 @@
 11) + сохранить и выйти. esc :wq Darya.txt; esc :q!
 12) Выйти из папки на уровень выше - cd ..
 —
-13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv one.txt project1; mv one.json project1 or two.txt progect1/ two.json project1
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv one.txt project1; mv one.json project1 or two.txt two.json project1/
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp two.txt project2; cp two.json project2
 15) Найти файл по имени find Darya.txt 
 16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. grep в данном случае не подходит, испульзуем: tail -f three.txt (я изучила, что команду grep можно использовать с tail следующим образом: tail -f name.txt | grep (time:time) вывести информацию в терминал за определенный период времени; затем можно эту информацию сохранить в другой файл с помощью tail -f name.txt | grep - - line - buffered - (time:time) >> в какой файл сохранить 
@@ -27,7 +27,7 @@
 1) Отправить http запрос на сервер.
 http://162.55.220.72:5005/terminal-hw-request     curl "http://162.55.220.72:5005/terminal-hw-request" ; curl "http://162.55.220.72:5005/get_method?name=(Darya)&age=(25)"
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
-создала новую папку, в которой есть папка q1
+создала новую папку, в которой есть папка p1
 Git Bash here
 touch myscript1
 vim myscript1
@@ -40,7 +40,7 @@ cd q1
 touch 1.txt 2.txt 3.txt 1.json 2.json
 mkdir w1 w2 w3
 ls -la
-mv 1.txt q1/ 2.txt q1
+mv 1.txt 2.txt w1/
 esc :wq
 chmod +x ./myscript1
 ./myscript
