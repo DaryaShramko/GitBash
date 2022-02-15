@@ -32,7 +32,7 @@ TXT
 
   ````
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT:
-     + cat > skkls.txt >
+     + cat > sklls.txt >
      ````
      On Vadim's Ksendzov course I will study a lot of new information, e.g. about Jmeter GitBash script, terminal line, Postman, Fidler, Charlie, SQL, Xcode, VPN, Dev Tools Google Chrome and Firefox, peculiarities of Android and iOS, simple bush cript, automation of routibe tasks on the server, Python and access to remote servers.   
      Ctrl + c
